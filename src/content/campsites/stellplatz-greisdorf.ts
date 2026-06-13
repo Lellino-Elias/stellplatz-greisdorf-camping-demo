@@ -74,17 +74,12 @@ const stellplatzGreisdorf: CampsiteConfig = {
   camping: {
     heading: "Alles zum Ver- und Entsorgen",
     intro:
-      "Vom Frischwasser bis zur Stromsäule findest du die komplette Versorgung direkt am Platz — unkompliziert und in Selbstbedienung.",
+      "Die münzbetriebene Stromsäule steht direkt am Platz — für einen Euro bekommst du zwei Kilowattstunden. Frischwasser, Grauwasser- und Kassettenentsorgung sind in der Stellplatzgebühr enthalten.",
     features: [
       {
         title: "Stromsäule mit 10 A",
         text: "Eine münzbetriebene Säule versorgt dein Mobil mit Strom — für einen Euro bekommst du zwei Kilowattstunden, abgesichert mit 10 Ampere.",
         image: { src: `${IMG}/amenity-cb7dea394c.webp`, alt: "Münzbetriebene Stromsäule am Stellplatz Greisdorf" },
-      },
-      {
-        title: "Frischwasser zum Auffüllen",
-        text: "An der Zapfstelle füllst du deine Tanks mit Frischwasser auf — gleich neben der Ver- und Entsorgungsstation am Platz.",
-        image: { src: `${IMG}/amenity-f35eda6d8f.webp`, alt: "Frischwasser-Zapfstelle am Stellplatz Greisdorf" },
       },
     ],
   },
@@ -109,9 +104,7 @@ const stellplatzGreisdorf: CampsiteConfig = {
     intro:
       "Entsorgung für chemische Toiletten und eine Kassa zum Selbstzahlen — ein paar ehrliche Eindrücke vom Stellplatz Greisdorf.",
     tag: "Selbstbedienung am Platz",
-    images: [
-      { src: `${IMG}/amenity-3d7f8c91b8.webp`, alt: "Kassettenentleerungs-Station mit Wasserhahn und Holzumrandung am Stellplatz Greisdorf" },
-    ],
+    images: [],
   },
 
   booking: {
@@ -142,7 +135,6 @@ const stellplatzGreisdorf: CampsiteConfig = {
 
   nav: [
     { label: "Versorgung", href: "#camping" },
-    { label: "Galerie", href: "#galerie" },
     { label: "Preise", href: "#booking" },
     { label: "Anreise", href: "#anreise" },
   ],
