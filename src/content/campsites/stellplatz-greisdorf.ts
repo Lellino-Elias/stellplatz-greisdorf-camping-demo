@@ -33,17 +33,17 @@ const stellplatzGreisdorf: CampsiteConfig = {
   pillars: [
     {
       title: "Platz für zehn Mobile",
-      text: "Höchstens zehn Fahrzeuge teilen sich den gepflegten Schotterplatz — privat errichtet und finanziert, ganz ohne den Trubel großer Anlagen.",
+      text: "Höchstens zehn Fahrzeuge teilen sich den gepflegten Schotterplatz — privat errichtet, ohne den Trubel großer Anlagen.",
       image: { src: `${IMG}/amenity-dcc3c3318f.webp`, alt: "Eingang und Schotterfläche von Stellplatz Greisdorf" },
     },
     {
       title: "Bezahlen per Kuvert-Kassa",
-      text: "Du schreibst Datum und Kennzeichen auf ein Kuvert, legst die 15 Euro bei und wirfst es in die rote Kassa — kein Personal, kein Schranken, nur gegenseitiges Vertrauen.",
+      text: "Datum und Kennzeichen auf ein Kuvert, 15 Euro einlegen und in die rote Kassa werfen — kein Personal, nur Vertrauen.",
       image: { src: `${IMG}/amenity-69d8a6051e.webp`, alt: "Willkommens-Infotafel mit Preisliste und roter Kuvert-Kassa am Stellplatz Greisdorf" },
     },
     {
       title: "Mitten in der Region Reinischkogel",
-      text: "Du übernachtest in der grünen Tourismusregion Reinischkogel — ruhig, bewaldet und nah an den Genusswegen des steirischen Schilcherlandes.",
+      text: "Du übernachtest in der grünen Tourismusregion Reinischkogel — ruhig, bewaldet und nah an den Genusswegen des Schilcherlandes.",
       image: { src: `${IMG}/amenity-98b3d311af.webp`, alt: "Blick in die bewaldete Landschaft rund um den Stellplatz" },
     },
   ],
@@ -78,7 +78,7 @@ const stellplatzGreisdorf: CampsiteConfig = {
     features: [
       {
         title: "Stromsäule mit 10 A",
-        text: "Eine münzbetriebene Säule versorgt dein Mobil mit Strom — für einen Euro bekommst du zwei Kilowattstunden, abgesichert mit 10 Ampere.",
+        text: "Eine münzbetriebene Säule versorgt dein Mobil — für einen Euro gibt es zwei Kilowattstunden, abgesichert mit 10 Ampere.",
         image: { src: `${IMG}/amenity-cb7dea394c.webp`, alt: "Münzbetriebene Stromsäule am Stellplatz Greisdorf" },
       },
     ],
